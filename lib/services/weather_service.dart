@@ -9,7 +9,6 @@ class weatherService{
   final String baseUrl="http://api.weatherapi.com/v1";
   final String ApiKay="ac8950702d434420b5f85525233110%20";
 
-
   Future<weatherModel> getCurrentWeather({ required city}) async{
   try {
     Response respone =  await dio.get("$baseUrl/forecast.json?key=$ApiKay&q=$city&days=10");
