@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../../../constant/getWeatherColor.dart';
-import '../../../../core/models/weather_model.dart';
-import '../../../../cubit/gat_weather_cubit.dart';
-
+import '../../../Data/cubit/gat_weather_cubit.dart';
+import '../../../Data/models/weather_model.dart';
 
 
 

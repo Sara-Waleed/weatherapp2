@@ -1,10 +1,10 @@
 
 import 'package:dio/dio.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:weatherapp2/cubit/get_weather_cubit_state.dart';
 
-import '../core/models/weather_model.dart';
-import '../core/services/weather_service.dart';
+import '../../../core/services/weather_service.dart';
+import '../models/weather_model.dart';
+import 'get_weather_cubit_state.dart';
 
 class GetWeatherCubit extends Cubit< WeatherState> {
   GetWeatherCubit(): super(InitialState());

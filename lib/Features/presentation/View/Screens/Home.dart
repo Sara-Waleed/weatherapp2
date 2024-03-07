@@ -2,11 +2,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:weatherapp2/cubit/gat_weather_cubit.dart';
-import 'package:weatherapp2/cubit/get_weather_cubit_state.dart';
 import 'package:weatherapp2/Features/presentation/View/Screens/searchView.dart';
-
-import '../../../../core/models/weather_model.dart';
+import '../../../Data/cubit/gat_weather_cubit.dart';
+import '../../../Data/cubit/get_weather_cubit_state.dart';
+import '../../../Data/models/weather_model.dart';
 import '../shared_Widgets/NoWeaterData.dart';
 import '../shared_Widgets/WeatherData.dart';
 
