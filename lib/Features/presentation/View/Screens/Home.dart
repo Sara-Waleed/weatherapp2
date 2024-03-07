@@ -4,9 +4,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:weatherapp2/cubit/gat_weather_cubit.dart';
 import 'package:weatherapp2/cubit/get_weather_cubit_state.dart';
-import 'package:weatherapp2/models/weather_model.dart';
-import 'package:weatherapp2/shared/shared_components.dart';
-import 'package:weatherapp2/view/searchView.dart';
+import 'package:weatherapp2/Features/presentation/View/Screens/searchView.dart';
+
+import '../../../../core/models/weather_model.dart';
+import '../shared_Widgets/NoWeaterData.dart';
+import '../shared_Widgets/WeatherData.dart';
+
+
+
 class Home extends StatefulWidget {
   Home({Key? key}) : super(key: key);
 

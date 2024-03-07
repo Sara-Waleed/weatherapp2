@@ -1,5 +1,5 @@
 
-import 'package:weatherapp2/models/weather_model.dart';
+import '../core/models/weather_model.dart';
 
 class WeatherState{}
 class InitialState extends WeatherState{}
